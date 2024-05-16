@@ -1,0 +1,23 @@
+.hashtag {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  border: 3px solid #373a37;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #373a37;
+}
+.hashtag:hover {
+  transition: all 0.2s;
+  background: #384842;
+}
+
+.hashtag > p {
+  font-size: 3rem;
+  margin: 0 auto;
+  display: inline;
+  color: #fff;
+}

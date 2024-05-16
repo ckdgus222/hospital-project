@@ -1,0 +1,47 @@
+.Search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 50%;
+  background-color: #666775;
+  padding: 20px 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.Search > h3 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.Search .wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 100px 100px;
+  place-items: center;
+  gap: 15px;
+}
+.Search .records_container {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+}
+.Search .button_style {
+  margin: 0 auto;
+  padding: 30px 30p;
+}
+.Search .button_style > button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(151, 170, 170);
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+.Search .button_style > button:hover {
+  transition: all 0.2s;
+  background-color: rgb(110, 117, 165);
+}

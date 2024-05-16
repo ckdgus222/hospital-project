@@ -1,0 +1,16 @@
+.marker_container {
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+}
+.marker_container > b {
+  font-size: 25px;
+}
+.marker_container .img_container {
+  width: 100%;
+  height: 100px;
+}
+.marker_container .img_container > img {
+  width: 100%;
+  height: 100%;
+}
