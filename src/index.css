@@ -1,8 +1,12 @@
 @font-face {
-   font-family: "NanumPenScript";
-   src: url("/NanumPenScript-Regular.ttf");
- }
- body * {
-   font-family: "NanumPenScript";
- }
- 
+  font-family: "NanumPenScript";
+  src: url("/NanumPenScript-Regular.ttf");
+}
+body * {
+  font-family: "NanumPenScript";
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}

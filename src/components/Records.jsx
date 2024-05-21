@@ -1,23 +1,28 @@
 import { video } from "./../util/video.js";
 import "./../style/Records.css";
 import { useSelector } from "react-redux";
-import { ache } from "../util/ache.js";
+
 
 //
 
 const Records = ({ bool }) => {
   const targetVideo = useSelector((state) => state.hospital.target);
-
   const boxStyle = {
-    backgroundColor: bool ? "#666775" : "#fff",
+    backgroundColor: bool ? "#ecdfe9" : "#eef7fe",
   };
   const pStyle = {
-    color: bool ? "#fff" : "black",
+    color: bool ? "#cfb5dd" : "black",
   };
 
   return (
     <div className="records" style={boxStyle}>
       <div className="records_wrapper">
+        <div className="records_text">
+          <p style={pStyle}>
+            증상에 따른 좋은 좋은 영상 <br />
+            시청하세요!
+          </p>
+        </div>
         <div className="records_video">
           <iframe
             width="100%"
@@ -29,9 +34,6 @@ const Records = ({ bool }) => {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           />
-        </div>
-        <div className="records_text">
-          <p style={pStyle}>증상에 따른 좋은 영상 확인하세요!</p>
         </div>
       </div>
     </div>

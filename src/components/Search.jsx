@@ -18,6 +18,9 @@ const Search = () => {
   const dispatch = useDispatch();
   const [boolColor,setBoolColor] = useState(true)
 
+  
+
+
 
   const filterSymptom = (painArea) => {
     const filterData = listData.filter((item) => item.symptom.includes(painArea));

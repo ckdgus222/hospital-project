@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   width: 50%;
   height: 50%;
-  background-color: #666775;
+  background-color: #ecdfe9;
   padding: 20px 20px;
   margin: 0 auto;
   border-radius: 20px;
@@ -12,7 +12,7 @@
 
 .Search > h3 {
   font-size: 80px;
-  color: #fff;
+  color: #efc7c7;
   text-align: center;
 }
 
@@ -35,13 +35,14 @@
 .Search .button_style > button {
   border: none;
   border-radius: 5px;
-  background-color: rgb(151, 170, 170);
+  background-color: rgb(216, 157, 211);
   font-size: 20px;
   width: 150px;
   height: 50px;
+  color: #fff;
   cursor: pointer;
 }
 .Search .button_style > button:hover {
   transition: all 0.2s;
-  background-color: rgb(110, 117, 165);
+  background-color: #eaa2ea;
 }

@@ -5,14 +5,14 @@
   padding: 10px 10px;
   display: flex;
   align-items: center;
-  border: 3px solid #373a37;
+  border: 3px solid #daa2dd;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #373a37;
+  background-color: #daa2dd;
 }
 .hashtag:hover {
   transition: all 0.2s;
-  background: #384842;
+  background: #eaa2ea;
 }
 
 .hashtag > p {

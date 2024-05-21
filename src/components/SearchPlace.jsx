@@ -15,8 +15,9 @@ const SearchPlace = () => {
   const [inputData, setInputData] = useState([]);
   const dispatch = useDispatch();
   const nav = useNavigate();
+  
+ 
 
-  useFetch(import.meta.env.VITE_SERVER_DATA);
 
   /*
     useEffect(() => {
