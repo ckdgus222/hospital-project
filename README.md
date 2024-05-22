@@ -3,14 +3,14 @@
 
 
 
-# 프로젝트 소개
+# :computer: 프로젝트 소개
 
 일생 생활에서 불편했던 상황을 구현 해보았습니다.
 
 # :alarm_clock: 개발 기간
 * 24.05.08 - 24.05.15
 
-# Tech
+# :wrench: Tech
 
 * React
 * Vite
