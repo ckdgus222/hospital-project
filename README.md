@@ -2,6 +2,8 @@
 
 <img width="1500" alt="스크린샷 2024-05-22 오후 1 49 58(2)" src="https://github.com/ckdgus222/hospital-project/assets/114120454/211aa9a0-64da-4bb1-a0cf-b1cbd662bc33">
 
+<img width="2055" alt="스크린샷 2024-05-22 오후 1 50 29" src="https://github.com/ckdgus222/hospital-project/assets/114120454/7162d441-0b13-419a-b336-f16de36508a8">
+
 
 # :computer: 프로젝트 소개
 
