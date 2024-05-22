@@ -1,5 +1,6 @@
 # React-Project-hospital
 
+<img width="2553" alt="스크린샷 2024-05-22 오후 1 49 58(2)" src="https://github.com/ckdgus222/hospital-project/assets/114120454/211aa9a0-64da-4bb1-a0cf-b1cbd662bc33">
 
 
 # :computer: 프로젝트 소개
