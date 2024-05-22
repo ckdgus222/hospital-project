@@ -68,6 +68,9 @@ const KakaoMap = ({ hospitals, searchQuery }) => {
 
     loadMarkers();
   }, [map, hospitals, searchQuery]);
+
+
+
   return (
     <>
       <div className="records_map">
@@ -77,5 +80,4 @@ const KakaoMap = ({ hospitals, searchQuery }) => {
     </>
   );
 };
-
 export default KakaoMap;

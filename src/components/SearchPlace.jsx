@@ -15,9 +15,6 @@ const SearchPlace = () => {
   const [inputData, setInputData] = useState([]);
   const dispatch = useDispatch();
   const nav = useNavigate();
-  
- 
-
 
   /*
     useEffect(() => {
@@ -45,6 +42,8 @@ const SearchPlace = () => {
   };
 
   const showList = inputText.length > 0 ? inputData : btnBool ? listData : mokList;
+
+
 
   return (
     <div className="searchPlace">

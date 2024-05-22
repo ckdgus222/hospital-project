@@ -1,12 +1,12 @@
 import "./../style/Search.css";
 import Hashtag from "./Hashtag";
-import Records from "../components/Records"
+import Records from "../components/Records";
 import { ache } from "../util/ache";
 import { useNavigate } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { stateFilteredData, toggleShowAll,targetData } from "../slice/hospitalSlice";
+import { stateFilteredData, toggleShowAll, targetData } from "../slice/hospitalSlice";
 import { useState } from "react";
 
 // button 누르면 Detailed 이동
@@ -16,19 +16,17 @@ const Search = () => {
   useFetch(import.meta.env.VITE_SERVER_DATA);
   const listData = useSelector((state) => state.hospital.data);
   const dispatch = useDispatch();
-  const [boolColor,setBoolColor] = useState(true)
-
-  
-
+  const [boolColor, setBoolColor] = useState(true);
 
 
   const filterSymptom = (painArea) => {
     const filterData = listData.filter((item) => item.symptom.includes(painArea));
-    dispatch(targetData(painArea))
+    
+    dispatch(targetData(painArea));
 
-    if (filterData.length > 0) {     
+    if (filterData.length > 0) {
       dispatch(stateFilteredData(filterData));
-      setBoolColor((prev) => !prev)
+      setBoolColor((prev) => !prev);
       setTimeout(() => nav("/detailed"), 0);
     } else {
       console.log("No data");
@@ -49,12 +47,10 @@ const Search = () => {
         ))}
       </div>
       <div className="records_container">
-        <Records bool={boolColor}/>
+        <Records bool={boolColor} />
       </div>
       <div className="button_style">
-        <button onClick={hospitalClick} >
-          병원 위치 찾기
-        </button>
+        <button onClick={hospitalClick}>병원 위치 찾기</button>
       </div>
     </div>
   );
