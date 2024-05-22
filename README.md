@@ -1,6 +1,6 @@
 # React-Project-hospital
 
-<img src="./assets/images/May-21-2024 13-45-42.gif" alt="portfolio" />
+
 
 
 # 프로젝트 소개
